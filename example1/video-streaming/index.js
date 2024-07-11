@@ -6,7 +6,7 @@ const app = express();
 
 //
 // Throws an error if the any required environment variables are missing.
-//
+// these codes checks for environment variables and displays errors if not intialized
 
 if (!process.env.PORT) {
     throw new Error("Please specify the port number for the HTTP server with the environment variable PORT.");
